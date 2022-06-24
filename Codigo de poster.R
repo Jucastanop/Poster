@@ -21,7 +21,7 @@ f<-function(m,n,sigma,B0,B1){
   con1=numeric()
   con2=numeric()
   con3=numeric()
-  x=runif(n,0,4)
+  x=runif(n,0,5)
   
   for (i in 1:m) {
     e=rnorm(n,0,sigma)
@@ -86,7 +86,7 @@ f<-function(m,n,sigma,B0,B1){
 vs_model<-cmpfun(f)
 
 
-vs_model(m=1000,n=100,sigma=1,B0=1,B1=1)  #una simulación (puede tardar algunos minutos)
+vs_model(m=1000,n=100,sigma=1,B0=1,B1=1)  #una simulaciÃ³n (puede tardar algunos minutos)
 
 
 
